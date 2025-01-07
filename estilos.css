@@ -1,44 +1,110 @@
 *{
     margin: 0;
-    padding: 0;
-    font-family: Tahoma, sans-serif;
 }
 
+html, body{
+    height:100%;
+}
 
-div{
+.topo, .rodape{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-family: sans-serif;
     text-align: center;
-    border-top: 1px solid #d5d5d5;
-    padding: 50px;
-    background-color: #f5f5f5;
+    color: #0081f9;
 }
-.topo img{
-   width: 190px;
-   
+
+.img-capa{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 40%;
+    margin-top: 5%;
 }
-h1, h2, h3, p{
+
+h1{
+    width: 100%;
     text-align: center;
+    margin: 30px 0;
+    font-family: sans-serif;
+}
+
+.info{
+    margin: 30px auto 30px auto;
+}
+
+.info p{
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 3%;
+}
+
+.area{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card{
+    width: 320px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #00051a;
+    margin: 0 30px 15px 0;
+    border-radius: 12px;
+}
+
+.card-sombra{
+    box-shadow: inset 0 0 15px 12px #002291;
+}
+
+.card h2{
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 29px;
+}
+
+.card img{
+    width: 150px;
+    height: 200px;
     margin: 15px 0;
 }
 
-p{
-    width: 930px;
-    line-height: 28px;
-    margin: 15px auto 30px auto;
+.informacoes{
+    width: 100%;
+    margin: 12px 0;
 }
 
-span{
-    font-weight: bold;
+.card ul{
+    font-size: 18px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 32px;
 }
 
-img{
-    width: 190px;
+.area-image{
+    overflow-x: scroll;
+    margin: 0 auto 40px auto;
 }
-a{
-    padding: 10px 30px;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #49b970;
-    color: #ffffff;
-    border-radius: 25px;
+
+.area-image img{
+    width: 315px;
+    margin: 10px;
+}
+
+.image-sombra{
+    box-shadow: 10px 10px 10px #939393;
+}
+
+.info a{
+    color: blue;
 }
